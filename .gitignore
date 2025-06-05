@@ -2,9 +2,17 @@ __pycache__/
 .vscode
 .DS_Store
 venv/
+env/
+.env/
+.python-version
 
+# Logs
 logs/
-!initial/logs/
+# Keep the initial/logs directory structure but ignore run_evaluation content
+initial/**
+*.log
+
+# SWE Bench specific
 swe_bench/predictions/
 swe_bench/tmp_repos/
 swe_bench/repos/
@@ -12,6 +20,11 @@ swe_bench/SWE-bench/
 swe_bench/logs/
 swe_bench/*.json
 
+# Docker related files
+.docker/
+docker-compose.override.yml
+
+# Project output and temporary files
 evo_expr/
 output_selfimprove/
 output_dgm/
@@ -19,9 +32,54 @@ output_peer_review/
 self_evo.md
 *.ipynb
 
+# Polyglot specific
 polyglot/polyglot_benchmark_metadata.json
 polyglot/polyglot-benchmark/
 polyglot/predictions/
+polyglot/logs/
 
+# Analysis and results
 final_results/
 analysis/output/
+
+# Python specific
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pytest cache
+.pytest_cache/
+
+# Editor specific
+*~
+.idea/
+.vscode/
+*.swp
+*.swo
