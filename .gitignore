@@ -7,7 +7,7 @@ env/
 .python-version
 
 # Logs
-logs/
+logs/**/*
 
 *.log
 
