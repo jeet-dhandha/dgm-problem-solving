@@ -5,6 +5,8 @@ venv/
 env/
 .env/
 .python-version
+/initial
+/initial_polyglot
 
 # Logs
 logs/**/*
@@ -82,5 +84,3 @@ coverage.xml
 .vscode/
 *.swp
 *.swo
-/initial
-/initial_polyglot
