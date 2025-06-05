@@ -10,6 +10,7 @@ env/
 logs/
 
 initial/
+initial_polyglot/
 *.log
 
 # SWE Bench specific
