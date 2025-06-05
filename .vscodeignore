@@ -8,7 +8,8 @@ env/
 
 # Logs
 logs/
-
+initial/
+initial_polyglot/
 *.log
 
 # SWE Bench specific
@@ -82,5 +83,3 @@ coverage.xml
 .vscode/
 *.swp
 *.swo
-/initial
-/initial_polyglot
