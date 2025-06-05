@@ -5,8 +5,8 @@ venv/
 env/
 .env/
 .python-version
-/initial
-/initial_polyglot
+initial/
+initial_polyglot/
 
 # Logs
 logs/**/*
