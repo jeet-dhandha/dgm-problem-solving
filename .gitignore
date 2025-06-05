@@ -8,8 +8,8 @@ env/
 
 # Logs
 logs/
-# Keep the initial/logs directory structure but ignore run_evaluation content
-initial/**
+
+initial/
 *.log
 
 # SWE Bench specific
